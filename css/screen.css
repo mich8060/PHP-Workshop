@@ -1,0 +1,120 @@
+@font-face{font-family:'ConduitItc';font-style:normal;font-weight:normal;src:url('http://www.backcountry.com/fonts/conduititc-light-webfont.eot?#iefix');src:url('http://www.backcountry.com/fonts/conduititc-light-webfont.eot?#iefix') format("eot"),url('http://www.backcountry.com/fonts/conduititc-light-webfont.woff') format("woff"),url('http://www.backcountry.com/fonts/conduititc-light-webfont.ttf') format("truetype"),url('http://www.backcountry.com/fonts/conduititc-light-webfont.svg#conduititc-light-webfont') format("svg")}
+@font-face{font-family:'ConduitItc';font-style:italic;font-weight:normal;src:url('http://www.backcountry.com/fonts/conduititc-light-italic-webfont.eot?#iefix');src:url('http://www.backcountry.com/fonts/conduititc-light-italic-webfont.eot?#iefix') format("eot"),url('http://www.backcountry.com/fonts/conduititc-light-italic-webfont.woff') format("woff"),url('http://www.backcountry.com/fonts/conduititc-light-italic-webfont.ttf') format("truetype"),url('http://www.backcountry.com/fonts/conduititc-light-italic-webfont.svg#conduititc-light-italic-webfont') format("svg")}
+@font-face{font-family:'ConduitItc';font-style:normal;font-weight:bold;src:url('http://www.backcountry.com/fonts/conduititc-bold-webfont.eot?#iefix');src:url('http://www.backcountry.com/fonts/conduititc-bold-webfont.eot?#iefix') format("eot"),url('http://www.backcountry.com/fonts/conduititc-bold-webfont.woff') format("woff"),url('http://www.backcountry.com/fonts/conduititc-bold-webfont.ttf') format("truetype"),url('http://www.backcountry.com/fonts/conduititc-bold-webfont.svg#conduititc-bold-webfont') format("svg")}
+@font-face{font-family:'ConduitItc';font-style:normal;font-weight:900;src:url('http://www.backcountry.com/fonts/conduititc-extrabold-webfont.eot?#iefix');src:url('http://www.backcountry.com/fonts/conduititc-extrabold-webfont.eot?#iefix') format("eot"),url('http://www.backcountry.com/fonts/conduititc-extrabold-webfont.woff') format("woff"),url('http://www.backcountry.com/fonts/conduititc-extrabold-webfont.ttf') format("truetype"),url('http://www.backcountry.com/fonts/conduititc-extrabold-webfont.svg#conduititc-extrabold-webfont') format("svg")}
+
+html{
+	font-size:16px;
+	-webkit-text-size-adjust:100%;
+	    -ms-text-size-adjust:100%;
+			text-size-adjust:100%;
+}
+
+body { 
+	background:#fff; 
+	font: normal 100%/24px "ConduitItc", Helvetica, Arial, Sans-Serif; 
+	-webkit-font-smoothing: antialiased; 
+			font-smoothing: antialiased;
+}
+
+article {
+	
+}
+
+header {
+	background:#fff;
+	border-top:solid 3px #222;
+}
+
+header h1 {
+	display:inline-block;
+	padding:25px 0;
+}
+
+menu {
+	background:#222;
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+
+menu a {
+	color:#fff;
+	padding:5px 10px;;
+}
+
+nav {
+	background:#222;
+}
+
+nav a {
+	color:#fff;
+	font-size:18px;
+	font-weight:600;
+	padding:10px;
+	text-transform:uppercase;
+}
+
+.search {
+	display:inline-block;
+	width:300px;
+}
+
+.search input[type="text"] {
+	display:block;
+	font-family:inherit;
+	font-size:18px;
+	padding:7px 10px;
+	margin:3px 10px 3px 0;
+	width:100%;
+	-webkit-box-sizing: border-box; 
+       -moz-box-sizing: border-box; 
+			box-sizing: border-box;
+}
+
+main {
+	min-height:800px;
+	padding:50px 0;
+}
+
+main h4 {
+	margin-bottom:30px;
+}
+
+.product{color:#222;font-size:18px;float:left;height:400px;line-height:18px;padding:10px;width:25%;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+	.product .img { margin:0 0 20px 0; }
+		.product .img img { width:100%; }
+	.product .brand { font-weight:600; }
+	.product .price { margin:4px 0; }
+	.product .sale-price { color:#E48325; margin:4px 0 0 0; }
+	.product .reg-price { color:#333; font-size:14px; margin:0 0 4px 0; }
+	.product .reviews { font-size:16px; }
+
+footer {
+	background:#ededed;
+	min-height:400px;
+	padding:10px;
+	text-align:center;
+}
+
+.container {
+	position:relative;
+	margin:0 auto;
+	width:1000px;
+}
+
+h1, h4 {
+	margin:0;
+	padding:0;
+	text-transform:uppercase;
+}
+
+h1 {
+	font-size:32px;
+}
+
+h4 {
+	font-size:18px;
+}
+
+.clear{ clear:both; display:block; height:0; overflow:hidden; visibility:hidden; width:0; }
