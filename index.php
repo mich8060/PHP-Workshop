@@ -12,7 +12,7 @@
 		<div class="container">
 			<h1><a href="#"><img src="http://www.backcountry.com/images/bcs/header/logo.png?1392664938" alt="" /></a></h1>
 			<menu>
-				<a href="#">Tim Cheneval</a>
+				<a href="#">Tim Wannahawkalugeh</a>
 				<a href="#">Order Status</a>
 				<a href="#">Cart (0)</a>
 			</menu>
